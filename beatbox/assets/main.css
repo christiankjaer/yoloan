@@ -1,0 +1,25 @@
+.grid {
+}
+.grid-row {
+    display: flex;
+    flex-direction: row;
+}
+.grid-element {
+  padding: 1px;
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  background-color: green;
+}
+.track-description {
+    width: 100px;
+}
+.highlight {
+    filter: brightness(40%);
+}
+.selected {
+    background-color: red;
+}
+.downbeat {
+    filter: brightness(60%);
+}
